@@ -52,6 +52,7 @@ The GitHub Actions pipeline triggers on every push to main branch:
 
 ## Project Structure
 
+```
 cloudguard-iac-pipeline/
 ├── main.tf                    # Provider and resource group
 ├── vnet.tf                    # Virtual Network and subnets
@@ -60,6 +61,7 @@ cloudguard-iac-pipeline/
 │   └── workflows/
 │       └── terraform.yml      # CI/CD pipeline
 └── .gitignore
+```
 
 ## Skills Demonstrated
 
